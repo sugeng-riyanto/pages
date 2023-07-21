@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+       <!-- Bootstrap icon -->
+
+    <!-- My CSS -->
+   <link rel="stylesheet" href=" style.css " />
+   <!--  Akhir CSS-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+
+   <!-- akhir bootstrap icon -->
+    <title>Belajar Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: aqua;">
+      <div class="container">
+        <a class="navbar-brand " href="#jumbotron"> <i class="bi bi-file-earmark-code-fill"></i> Study-Center</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#accordionExample">TOC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://sugeng-riyanto.github.io/" target="_blank"><i class="bi bi-person-bounding-box"></i></a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link active" href="#contactme">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#resouces">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://sites.google.com/guru.sma.belajar.id/physicscorners/home" target="_blank">Physics Corners</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#headingFive">Vue JS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#headingFive">React JS</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="https://github.com/sugeng-riyanto" target="_blank" > My <i class="bi bi-github"> </i>GitHub</a>
+              </li>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotrons -->
+    <section id="jumbotron" class="jumbotron">
+              <div class="container pt-5 text-center">
+        <h1 class="display-3 strong"><i class="bi bi-bootstrap-fill success"></i>ootstrap Study Website</h1>
+                
+        <p class="lead">Sugeng Riyanto, M.Sc.</p>
+         <!--     <div class="col">  
+         <img src="img/1.gif" alt="Project 1" class="bg-img" />
+            </div>  -->  
+     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      </section>
+    <!-- the end jumbotron -->
+<!-- dropdown flush -->
+<section class="accordion" id="accordionExample" style="background-color: rgb(29, 37, 37);">
+    <div class="container shadow-lg p-3 mb-5 bg-body rounded" ; style="background-color: rgb(178, 245, 240);">
+        <div class="row text-center shadow-lg p-3 mb-5 bg-body rounded">
+   <h1>Table of Contents</h1>
+        </div>
+<div class="row">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          HTML Elements
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="row">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+    </div>
+    <div class="row">
+      <a href="htmlelements.html" id="basic">
+        <div class="container text-center d-inline-block">
+        <button type="button" class="btn btn-primary ">Basic Typography</button>
+        <button type="button" class="btn btn-secondary">Image and Figure</button>
+        <button type="button" class="btn btn-success">Tables</button>
+        <button type="button" class="btn btn-danger">Code</button>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Utilities
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="row">
+      <a href="utilities.html" id="basic2">
+            <div class="container text-center d-inline-block">
+            <button type="button" class="btn btn-primary">Text Alignment & Display</button>
+            <button type="button" class="btn btn-secondary">Floats and Position</button>
+            <button type="button" class="btn btn-success">Colors and Bacground</button>
+            <button type="button" class="btn btn-danger">Spacing and sizing</button>
+            <button type="button" class="btn btn-warning">Borders and Shadow</button>
+        </a>
+    </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          CSS Components
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+        <div class="row">
+          <a href="csscomponent.html" id="basic3">
+            <div class="container text-center d-inline-block">
+            <button type="button" class="btn btn-primary">Buttons</button>
+            <button type="button" class="btn btn-secondary">Nav & Navbar</button>
+            <button type="button" class="btn btn-success">Jumbotron</button>
+            <button type="button" class="btn btn-danger">List Group and Badges</button>
+            <button type="button" class="btn btn-warning">Forms and Inputs</button>
+            <button type="button" class="btn btn-info">Input Groups</button>
+            <button type="button" class="btn btn-light">Alerts and Progress</button>
+            <button type="button" class="btn btn-dark">Pagination</button>
+            <button type="button" class="btn btn-link">Cards</button>
+      </a>
+    </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          Grid and Flexbox
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+        <div class="row">
+          <a href="grid_flexbox.html" id="basic4">
+            <div class="container text-center d-inline-block">
+            <button type="button" class="btn btn-primary">Containers, Row and Column</button>
+            <button type="button" class="btn btn-secondary">Responsive Breakpoints</button>
+            <button type="button" class="btn btn-success">Grid System</button>
+            <button type="button" class="btn btn-danger">Grid Alignment</button>
+            <button type="button" class="btn btn-warning">Flexbox</button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+          Javascript Widget
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+        <div class="row">
+          <a href="javascript_widget.html" id="basic5">
+            <div class="container text-center d-inline-block">
+            <button type="button" class="btn btn-primary">Carousel</button>
+            <button type="button" class="btn btn-secondary">Collapse</button>
+            <button type="button" class="btn btn-success">Dropdowns</button>
+            <button type="button" class="btn btn-danger">Popovers</button>
+            <button type="button" class="btn btn-warning">Modals</button>
+          </a>
+    </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,288L60,282.7C120,277,240,267,360,266.7C480,267,600,277,720,256C840,235,960,181,1080,181.3C1200,181,1320,235,1380,261.3L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+</section>
+<!-- the end dropdown flush -->
+    <section id="resouces">
+     
+      <div class="container p-3 align-self-center">
+        <div class="row  p-5 text-center">
+             <h2>Resources</h2>
+        </div>
+        <div class="row align-items-center">
+        <div class="col align-self-start text-start">
+            <samp><strong>Images Sources:</strong></samp>
+            <p>Unsplash: <a href="https://unsplash.com/" class="list-group-item list-group-item-action bg-secondary text-light " target="_blank">https://unsplash.com/</a> </a></p>
+            <p>Pixabay:  <a href="https://pixabay.com" class="list-group-item list-group-item-action bg-success text-light" target="_blank">https://pixabay.com</a> </a></p>
+            <p>unDraw: <a href="https://undraw.co/illustrations" class="list-group-item list-group-item-action bg-danger text-light" target="_blank">https://undraw.co/</a> </a></p>
+            <p>Bootstrap: <a href="https://icons.getbootstrap.com/" class="list-group-item list-group-item-action bg-warning text-dark" target="_blank">https://icons.getbootstrap.com/</a> </a></p>
+            <p>Lottiefiles: <a href="https://lottiefiles.com/search?q=back..." class="list-group-item list-group-item-action bg-primary text-light" target="_blank">https://lottiefiles.com/search?q=</a> </a></p>
+            <p>Wave-io: <a href="https://getwaves.io/" class="list-group-item list-group-item-action bg-dark text-light" target="_blank">https://getwaves.io/</a> </a></p>
+            <p>Color Hunt: <a href="https://colorhunt.co/palettes/popular" class="list-group-item list-group-item-action bg-info text-dark" target="_blank">https://colorhunt.co/palettes/popular</a> </a></p>
+        </div>
+        <!-- col 2 -->
+        <div class="col align-self-end text-start">
+          <samp><strong>Install the following Application:</strong></samp>
+          <p>Sign Up or Sign in GitHub <a href="https://github.com/" class="list-group-item list-group-item-action bg-danger text-light" target="_blank">https://github.com/</a> </a></p>
+          <p>Visual Studio Application: <a href="https://code.visualstudio.com/" class="list-group-item list-group-item-action bg-info text-dark " target="_blank">https://code.visualstudio.com</a> </a></p>
+          <p><strong>Extension for Visual Studio Code:</strong></p>
+          <samp><strong>*) Prettier</strong></samp> <br>
+          <samp><strong>*) auto rename tag</strong></samp> <br>
+          <samp><strong>*) bootstrap</strong></samp> <br>
+          <samp><strong>*) live server</strong></samp> <br>
+          <samp><strong>*) open browser</strong></samp> <br>
+          <samp><strong>*) beautify </strong></samp> <br>
+          <samp><strong>*) bracket pair colorizer</strong></samp> <br>
+          <samp><strong>*) indent rainbow</strong></samp> <br>
+          <samp><strong>*) css peek</strong></samp> <br>
+          <samp><strong>*) intellisense for css classnames</strong></samp> <br>
+          <samp><strong>*) php intellisense</strong></samp> <br>
+          <samp><strong>*) one dark pro</strong></samp> <br>
+          </div>
+        <!-- end col 2 -->
+      </div>
+      </div>
+    </div>
+  </section>
+      
+
+<!-- form -->
+<section id="contactme">
+<div class="row d-flex justify-content-center">
+<h1 class="text-center pt-5">Contact Me </h1>
+  <div class="col d-flex justify-content-center">
+  <div class="container justify-content-center shadow pt-5 mg-5 bg-light rounded">
+    
+    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+      <strong>Yeay!</strong> Your messages has been sent. Thank You!
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+   <form id="form" name="submit-to-google-sheet">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="name" name="Fullname"/>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="email" name="Email" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="pesan" class="form-label">Message</label>
+                    <textarea class="form-control" id="pesan" rows="3" name="Messages"></textarea>
+    <!-- modal -->
+ 
+    <!-- Button trigger modal -->
+<button type="submit" class="btn btn-primary btn-kirim">Submit</button>
+<button class="btn btn-primary btn-loading d-none" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...</button>
+
+  </form>
+</div>
+ </div> 
+  </div> 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+<!-- the end of form -->
+    <footer class="bg-primary text-white text-center pb-5">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://twitter.com/srphysics04" class="text-white fw-bold">Sugeng Riyanto <i class="bi bi-twitter"></i></a></p>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+    <!-- script -->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwv31kQjXbcKGFz9xFkG_iN0KsAV7oabTCWgjzVrfRA8K_GS0AHVwTTOKJSseLLnRRH/exec'
+      const form = document.forms['submit-to-google-sheet'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        //ketika tombol submit
+        //tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response =>{
+              //tampilkan tombol kirim, hilangkan tombol loading
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        //tampilkan alert
+        myAlert.classList.toggle('d-none');
+        //reset formnya
+        form.reset(); 
+        console.log('Success!', response);
+        })
+        .catch(error => console.error('Error!', error.message))
+      });
+    </script>
+    <!-- the end script -->
+  </body>
+</html>
